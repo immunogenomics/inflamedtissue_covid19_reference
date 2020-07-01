@@ -17,4 +17,4 @@ The files in the repo are organized as follows:
 
 + Linear model to model HTO single-cell macrophage data for different conditions: `code/mac_stimuli_linear_model.ipynb`
 
-Send us (fanzhang@broadinstitute.org) an email if you have any quesitons!
+Send us an email if you have any questions!
