@@ -13,8 +13,11 @@ The files in the repo are organized as follows:
 
 `data/` has metadata and R files with processed data ready for analysis.
 
-`code/` has code for our integrative pipeline, analysis, and figures:
+`code/` has code for our integrative pipeline, analysis, and figures.
 
-+ Linear model to model HTO single-cell macrophage data for different conditions: `code/mac_stimuli_linear_model.ipynb`
+## Raw data download
+
+Upon acceptance, all single-cell hashtag sequencing data from human blood-derived macropahges  will be made available on GEO.
+
 
 Send us an email if you have any questions!
