@@ -1,5 +1,5 @@
 ## Overview
-This repo provides the source code for our analysis and figures on "Identification of common inflammatory macrophage phenotypes in COVID-19 using integrated transcriptional single-cell reference map of inflamed tissues in 6 diseases".
+This repo provides the source code for our analysis and figures on "An integrated transcriptional single-cell reference map of inflamed tissues in 6 diseases to identify inflammatory macrophage phenotypes in COVID-19".
 
 ## Source code 
 
