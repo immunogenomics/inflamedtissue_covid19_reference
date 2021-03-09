@@ -1,5 +1,6 @@
 ## Overview
-This repo provides the source code for our analysis and figures on "An integrated transcriptional single-cell reference map of inflamed tissues in 6 diseases to identify inflammatory macrophage phenotypes in COVID-19".
+This repo provides the source code for our analysis and figures on 
+"Fan Zhang, Joseph R. Mears, Lorien Shakib, Jessica I. Beynor, Sara Shanaj, Ilya Korsunsky, Aparna Nathan, Accelerating Medicines Partnership Rheumatoid Arthritis and Systemic Lupus Erythematosus (AMP RA/SLE) Consortium, Laura T. Donlin*, Soumya Raychaudhuri*. IFN-γ and TNF-α drive a CXCL10+ CCL2+ macrophage phenotype expanded in severe COVID-19 lungs and inflammatory diseases with tissue inflammation. In review, 2021".
 
 ## Source code 
 
