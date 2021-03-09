@@ -6,14 +6,18 @@ This repo provides the source code for our analysis and figures for
 ## Source code 
 
 This repo covers major analyses and figure generations for:
- - An integrative pipeline for multiple disease tissue and COVID-19 single-cell transcriptomic integration 
- - A single-cell immune reference by meta-analyszing > 300,000 immune cells from 125 donor samples from 6 inflammatory diseases: rheumatoid arthritis (RA) and osteoarthritis (OA), ulcerative colitis (UC), Crohn’s disease (CD), lupus, interstitial lung disease, and COVID-19, which is effective to investigate connections between other inflammatory diseases with COVID-19.
- - Identification of two common inflammatory macrophage states that secreate inflammatory cytokines and chemokines
- - Generation of multiple inflammatory macropahge phenotypes by stimulating human blood-derived macrophages using 8 different cytokines and evironment using single-cell hashtag technology
+ - We built an immune cell reference consisting of >300,000 single-cell transcriptomic profiles from COVID-19 affected lungs and tissues from healthy subjects and patients with 5 inflammatory diseases: rheumatoid arthritis (RA), Crohn’s disease (CD), ulcerative colitis (UC), lupus, and interstitial lung disease. 
+ - We tested the association of shared immune states with severe/inflamed status compared to healthy control using mixed-effects modeling. 
+ - We observed a CXCL10+ CCL2+ inflammatory macrophage state that is shared and strikingly abundant in severe COVID-19 bronchoalveolar lavage samples, inflamed RA synovium, inflamed CD ileum and UC colon. 
+ - We found this macrophage phenotype is induced upon co-stimulation by IFN-γ and TNF-α.
+ 
+ Expension and generalization of this reference:
+ - This reference can be used to investigate other inflammatory diseases and their connections with COVID-19 in terms of immune cell responses. 
+ - Notebook of using Symphony (Kang, In review, 2021) to map Sepsis (Reyes, *Nature Medicine*, 2020) cells to our cross-diseased tissue single-cell reference that reflects shared inflammatory structures.
 
 
 ## Raw data access
-Upon acceptance, all single-cell hashtag sequencing data from human blood-derived macropahges will be made available on GEO.
+Our human blood-derived macrophage single-cell sequencing data is available at GEO XXX.
 
 ## Contact
-Send us an email (fanzhang@broadinstitute.org) if you have additional questions!
+Send us an email (fanzhang@broadinstitute.org and jmears@broadinstitute.org) if you have additional questions!
