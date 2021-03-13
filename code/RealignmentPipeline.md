@@ -1,7 +1,7 @@
 # Remapping raw fastq files from public single-cell datasets to build a multi-tissue immune cell reference for inflammatory diseases
 
-#### Author : Joseph Mears and Fan Zhang
-#### Date : March 11, 2021
+#### Joseph Mears and Fan Zhang
+#### March 11, 2021
 
 
 To build a multi-tissue immune cell reference for inflammatory diseases, we obtained raw FASTQ files when available from multiple publicly available single-cell datasets to enable an unbiased comparison and integration. 

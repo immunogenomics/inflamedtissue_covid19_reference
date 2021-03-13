@@ -11,9 +11,9 @@ This repo covers code for major analyses and figure generations:
  - We observed a CXCL10+ CCL2+ inflammatory macrophage state that is shared and strikingly abundant in severe COVID-19 bronchoalveolar lavage samples, inflamed RA synovium, inflamed CD ileum and UC colon. 
  - We found this macrophage phenotype is induced upon co-stimulation by IFN-γ and TNF-α.
  
- Expension and generalization of this reference:
+Generalization and extension of this reference:
  - This reference (Zhang, et al, 2021) can be used to investigate other inflammatory diseases and their connections with COVID-19 in terms of immune cell responses. 
- - Notebook of using Symphony (Kang, In review, 2021) to map Sepsis (Reyes, *Nature Medicine*, 2020) cells to our cross-diseased tissue single-cell reference that reflects shared inflammatory structures.
+    - [An example notebook](https://github.com/immunogenomics/inflamedtissue_covid19_reference/blob/master/code/Map_Sepsis_to_FanImmuneReference_using_Symphony_Notebook.ipynb) of mapping Sepsis PBMCs (Reyes, *Nature Medicine*, 2020) to our cross-diseased tissue single-cell reference that reflects shared inflammatory structures using using Symphony (Kang, In review, 2021).
 
 
 ## Raw data access
