@@ -12,12 +12,12 @@ This repo covers code for major analyses and figure generations:
  - We found this macrophage phenotype is induced upon co-stimulation by IFN-γ and TNF-α.
  
  Expension and generalization of this reference:
- - This reference can be used to investigate other inflammatory diseases and their connections with COVID-19 in terms of immune cell responses. 
+ - This reference (Zhang, et al, 2021) can be used to investigate other inflammatory diseases and their connections with COVID-19 in terms of immune cell responses. 
  - Notebook of using Symphony (Kang, In review, 2021) to map Sepsis (Reyes, *Nature Medicine*, 2020) cells to our cross-diseased tissue single-cell reference that reflects shared inflammatory structures.
 
 
 ## Raw data access
-Our human blood-derived macrophage single-cell sequencing data is available at GEO XXX.
+The single-cell RNA-seq data for blood-derived macrophages are available in the Gene Expression Omnibus database with accession number GSE168710.
 
 ## Contact
 Send us an email (fanzhang@broadinstitute.org and jmears@broadinstitute.org) if you have additional questions!
