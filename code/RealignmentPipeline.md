@@ -1,14 +1,14 @@
 # Remapping raw fastq files from public single-cell datasets to build a multi-tissue immune cell reference for inflammatory diseases
 
-### Author : Joseph Mears and Fan Zhang
-### Date : March 11, 2021
+#### Author : Joseph Mears and Fan Zhang
+#### Date : March 11, 2021
 
 
 To build a multi-tissue immune cell reference for inflammatory diseases, we obtained raw FASTQ files when available from multiple publicly available single-cell datasets to enable an unbiased comparison and integration. 
 We were able to complete the following protocol for realignment and integration of most of the publicly available single-cell datasets below. We believe future studies may benefit from this approach and would like to share our key steps. 
 
 ## 1) Download raw fastq files:
-- RA synovial cells from dbGaP (Zhang, et al, 2019; phs001457.v1.p1), and dbGaP (Stephenson, et al, 2018; phs001529.v1.p1), SLE kidney cells from dbGaP (Arazi, et al, 2019; phs001457.v1.p1), UC colon cells from Single Cell Portal (Smillie, et al, 2019; SCP259), CD ileum cells from GEO (Martin, et al, 2019; GSE134809), interstitial and pulmonary lung disease from GEO (Reyfman, et al, 2019; GSE122960), and COVID-19 and healthy BALF cells from GEO (Liao, et al, 2020; GSE145926). 
+- RA synovial cells from dbGaP (Zhang, et al, 2019; phs001457.v1.p1) and dbGaP (Stephenson, et al, 2018; phs001529.v1.p1), SLE kidney cells from dbGaP (Arazi, et al, 2019; phs001457.v1.p1), UC colon cells from Single Cell Portal (Smillie, et al, 2019; SCP259), CD ileum cells from GEO (Martin, et al, 2019; GSE134809), interstitial and pulmonary lung disease from GEO (Reyfman, et al, 2019; GSE122960), and COVID-19 and healthy BALF cells from GEO (Liao, et al, 2020; GSE145926). 
 
     
 ## 2) Download latest version of STAR (STAR 2.7.8) in order to use STARsolo. 
@@ -17,6 +17,7 @@ We were able to complete the following protocol for realignment and integration 
 ## 3) Generate reference using STARsolo
 - Download relevant fa files from ensembl. We downloaded cdna file from : http://ftp.ensembl.org/pub/release-102/fasta/homo_sapiens/cdna/Homo_sapiens.GRCh38.cdna.all.fa.gz, but a newer release-103 is available. 
 - Alternatively, one can mimic the aligned output given by cellranger by generating a reference genome from the appropriate cellranger reference. These files can be found at : https://support.10xgenomics.com/single-cell-gene-expression/software/downloads/latest? and the relevant genome for our work can be downloaded from the command line via:
+
             `wget https://cf.10xgenomics.com/supp/cell-exp/refdata-gex-GRCh38-2020-A.tar.gz` or 
             `curl https://cf.10xgenomics.com/supp/cell-exp/refdata-gex-GRCh38-2020-A.tar.gz`
             
