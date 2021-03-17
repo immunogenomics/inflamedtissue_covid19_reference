@@ -13,7 +13,7 @@ This repo covers code for major analyses and figure generations:
  
 Generalization and extension of this reference:
  - This [reference](https://www.biorxiv.org/content/10.1101/2020.08.05.238360v1) (Zhang, et al, 2021) can be used to query/investigate cells from other inflammatory diseases and their transcriptomic similarities with our reference which incorporates 5 inflammatory diseased tissues and COVID-19 BALF. 
- - [A proof of concept](https://github.com/immunogenomics/inflamedtissue_covid19_reference/blob/master/code/Map_Sepsis_to_FanImmuneReference_using_Symphony_Notebook.ipynb) of mapping Sepsis PBMCs (Reyes, et al, *Nature Medicine*, 2020) to our cross-diseased tissue single-cell reference that reflects shared inflammatory structures using using [Symphony](https://www.biorxiv.org/content/10.1101/2020.11.18.389189v2)(Kang, et al, In review, 2021).
+ - [A proof of concept](https://github.com/immunogenomics/inflamedtissue_covid19_reference/blob/master/code/Map_Sepsis_to_FanImmuneReference_using_Symphony_Notebook.ipynb) of mapping Sepsis PBMCs (Reyes, et al, *Nature Medicine*, 2020) to our cross-diseased tissue single-cell reference that reflects shared inflammatory structures.
 
 
 ## Raw data access
