@@ -8,8 +8,10 @@ This repo provides the source code for our analysis and figures for
 This repo covers code for major analyses and figure generations:
  - We built an immune cell reference consisting of >300,000 single-cell transcriptomic profiles from COVID-19 affected lungs and tissues from healthy subjects and patients with 5 inflammatory diseases: rheumatoid arthritis (RA), Crohn’s disease (CD), ulcerative colitis (UC), lupus, and interstitial lung disease. 
  - We tested the association of shared immune states with severe/inflamed status compared to healthy control using mixed-effects modeling. 
+  ![](overall.png)
  - We observed a CXCL10+ CCL2+ inflammatory macrophage state that is shared and strikingly abundant in severe COVID-19 bronchoalveolar lavage samples, inflamed RA synovium, inflamed CD ileum and UC colon. 
  - We found this macrophage phenotype is induced upon co-stimulation by IFN-γ and TNF-α.
+ ![](HTO.png)
  
 Generalization and extension of this reference:
  - This [reference](https://www.biorxiv.org/content/10.1101/2020.08.05.238360v1) (Zhang, et al, 2021) can be used to query/investigate cells from other inflammatory diseases and their transcriptomic similarities with our reference which incorporates 5 inflammatory diseased tissues and COVID-19 BALF. 
