@@ -15,7 +15,9 @@ This repo provides the source code for our analysis and figures for
 
 
 ## Data access
-The single-cell RNA-seq data for blood-derived macrophages are available in the Gene Expression Omnibus database with accession number [GSE168710](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE168710).
+- The cross-tissue inflammatory imuune atlas can be downloaded at [Zenodo](https://sandbox.zenodo.org/record/888445#.YQAJalNKhBI).
+- The single-cell RNA-seq data for blood-derived macrophages are available in the Gene Expression Omnibus database with accession number [GSE168710](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE168710).
+
 
 ## Contact
 Send us an email (fanzhang@broadinstitute.org and jmears@broadinstitute.org) if you have additional questions on the analyses!
