@@ -5,7 +5,7 @@ This repo provides the source code for our analysis and figures for
 
 - **Motivation**: Understanding the immune cell states shared between COVID-19 and other inflammatory diseases with established therapies may help nominate immunomodulatory therapies.
 
-- **Build an immune cell reference** consisting of >300,000 single-cell transcriptomic profiles from COVID-19 affected lungs and tissues from healthy subjects and patients with 5 inflammatory diseases: rheumatoid arthritis (RA), Crohn’s disease (CD), ulcerative colitis (UC), lupus, and interstitial lung disease. We tested the association of shared immune states with severe/inflamed status compared to healthy using mixed-effects modeling. 
+- **Build a cross-tissue inflammatory immune reference** consisting of >300,000 single-cell transcriptomic profiles from COVID-19 affected lungs and tissues from healthy subjects and patients with 5 inflammatory diseases: rheumatoid arthritis (RA), Crohn’s disease (CD), ulcerative colitis (UC), lupus, and interstitial lung disease. We tested the association of shared immune states with severe/inflamed status compared to healthy using mixed-effects modeling. 
   ![](overall.png)
   
 - **Identify a CXCL10+ CCL2+ inflammatory macrophage state** that is shared and strikingly abundant in severe COVID-19 bronchoalveolar lavage samples, inflamed RA synovium, inflamed CD ileum and UC colon. We found this macrophage phenotype is induced upon co-stimulation by IFN-γ and TNF-α collaborating with the Donlin lab.
@@ -15,7 +15,7 @@ This repo provides the source code for our analysis and figures for
 
 
 ## Data access
-- The cross-tissue inflammatory imuune atlas can be downloaded at [Zenodo](https://sandbox.zenodo.org/record/888445#.YQAJalNKhBI).
+- The cross-tissue inflammatory immune atlas can be downloaded at [Zenodo](https://sandbox.zenodo.org/record/888445#.YQAJalNKhBI).
 - The single-cell RNA-seq data for blood-derived macrophages are available in the Gene Expression Omnibus database with accession number [GSE168710](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE168710).
 
 
